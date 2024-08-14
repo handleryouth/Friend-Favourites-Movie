@@ -11,8 +11,13 @@ import SwiftData
 @main
 struct FriendsFavoritesMoviesApp: App {
     var sharedModelContainer: ModelContainer = {
+      /*
+       The schema of a model helps connect the classes you define in your code to the data in the data store.
+       */
+        
         let schema = Schema([
-            Item.self,
+            Movie.self,
+            Friend.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
