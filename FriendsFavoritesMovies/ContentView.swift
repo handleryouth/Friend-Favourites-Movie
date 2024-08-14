@@ -13,7 +13,7 @@ struct ContentView: View {
             
             FilteredMovieList().tabItem { Label("Search Movies", systemImage: "magnifyingglass") }
             
-            MovieList().tabItem { Label("Movies", systemImage: "film.stack") }
+            MovieList(enableToolbar: true).tabItem { Label("Movies", systemImage: "film.stack") }
             
             
             FriendList().tabItem { Label("Friends", systemImage: "person.and.person") }

@@ -14,26 +14,90 @@
             filePath = "FriendsFavoritesMovies/MovieList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A3BEA104-7564-4D4F-B2A4-627476FABAF9 - ae0274604ab1dbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Identifiable, &#x3c4;_1_1: SwiftUI.View&gt;(item: SwiftUI.Binding&lt;Swift.Optional&lt;&#x3c4;_1_0&gt;&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in FriendsFavoritesMovies.MovieList.body.getter : some"
+                  moduleName = "FriendsFavoritesMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/swift-app/FriendsFavoritesMovies/FriendsFavoritesMovies/MovieList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "A3BEA104-7564-4D4F-B2A4-627476FABAF9 - fbb8d290a4738103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.List&lt;Swift.Never, &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onDelete(perform: Swift.Optional&lt;(Foundation.IndexSet) -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ContentUnavailableView&lt;SwiftUI.Label&lt;SwiftUI.Text, SwiftUI.Image&gt;, SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Identifiable, &#x3c4;_1_1: SwiftUI.View&gt;(item: SwiftUI.Binding&lt;Swift.Optional&lt;&#x3c4;_1_0&gt;&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in FriendsFavoritesMovies.MovieList.body.getter : some"
+                  moduleName = "FriendsFavoritesMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/swift-app/FriendsFavoritesMovies/FriendsFavoritesMovies/MovieList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CA164984-5B0C-4431-90D1-A3BBF2A6B050"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FriendsFavoritesMovies/MovieList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CA164984-5B0C-4431-90D1-A3BBF2A6B050 - 2b3228ba7f14925d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FriendsFavoritesMovies.MovieList.body.getter : some"
+                  moduleName = "FriendsFavoritesMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/swift-app/FriendsFavoritesMovies/FriendsFavoritesMovies/MovieList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "CA164984-5B0C-4431-90D1-A3BBF2A6B050 - ae0274604ab1da88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Identifiable, &#x3c4;_1_1: SwiftUI.View&gt;(item: SwiftUI.Binding&lt;Swift.Optional&lt;&#x3c4;_1_0&gt;&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in FriendsFavoritesMovies.MovieList.body.getter : some"
+                  moduleName = "FriendsFavoritesMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/swift-app/FriendsFavoritesMovies/FriendsFavoritesMovies/MovieList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

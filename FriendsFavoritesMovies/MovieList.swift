@@ -14,13 +14,15 @@ struct MovieList: View {
     
     @State private var newMovie: Movie?
     
+    let enableToolbar: Bool
+    
     
     /*
      
      You use predicates to describe conditions for SwiftData to filter data.
      A Query applies its predicate to each of the items in the data store. Returning true from a predicate indicates that you want to see the item.
      */
-    init(titleFilter: String = "") {
+    init(titleFilter: String = "", enableToolbar: Bool = false) {
        
         /*
          The || is the logical “or” operator. You can read the entire predicate like this: 
@@ -29,6 +31,8 @@ struct MovieList: View {
         let predicate = #Predicate<Movie>{movie in  titleFilter.isEmpty || movie.title.localizedStandardContains(titleFilter)}
         
         _movies = Query(filter: predicate, sort: \Movie.title)
+        
+        self.enableToolbar = enableToolbar
         
     }
 
@@ -65,20 +69,26 @@ struct MovieList: View {
             }
             
             .navigationTitle("Movies")
-#if os(macOS)
             .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
+
+        
             .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addMovie) {
-                        Label("Add Item", systemImage: "plus")
+
+                
+                if(enableToolbar == true) {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        EditButton()
+                    }
+    
+                    ToolbarItem {
+                        Button(action: self.addMovie) {
+                            Label("Add Item", systemImage: "plus")
+                        }
                     }
                 }
+                
+                
+                
             }.sheet(item: $newMovie) { movie in
                     /*
                      bottom sheet
@@ -114,21 +124,21 @@ struct MovieList: View {
 }
 
 #Preview {
-        MovieList()
+        MovieList(enableToolbar: true)
             .modelContainer(SampleData.shared.modelContainer)
     
 }
 
 #Preview("Empty List") {
     
-        MovieList().modelContainer(for: Movie.self, inMemory: true)
+        MovieList(enableToolbar: true).modelContainer(for: Movie.self, inMemory: true)
 
     
 }
 
 #Preview("Filtered") {
     
-        MovieList(titleFilter: "tr")
+        MovieList(titleFilter: "tr", enableToolbar: true)
             .modelContainer(SampleData.shared.modelContainer)
 
     
